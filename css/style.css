@@ -4,3 +4,9 @@
     box-sizing: border-box;
 }
 
+.main-body{
+    height: 100vh;
+    background: linear-gradient(180.43deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%),url("../image/starwars.jpg");
+    background-size: cover;
+    background-position: center;
+}
