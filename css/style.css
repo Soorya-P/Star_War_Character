@@ -1,12 +1,85 @@
+/*-----global-----*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*-----body-----*/
+
 .main-body{
     height: 100vh;
     background: linear-gradient(180.43deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%),url("../image/starwars.jpg");
     background-size: cover;
     background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.main-body h1{
+    font-size: 120px;
+    text-shadow: 10px 5px 10px black;
+}
+
+/*-----body content-----*/
+
+.cont{
+    margin:70px 150px ;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-----button-----*/
+
+.cbtn{
+    flex: 1 1 40rem;
+}
+
+.cbtn button{
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background: rgb(24,43,116);
+    background: linear-gradient(90deg, rgba(24,43,116,0.8298669809720763) 26%, rgba(247,0,0,0.7710434515603116) 75%);
+    box-shadow: 5px 10px 10px black;
+}
+
+.cbtn button:hover{
+    background: rgb(247,0,0);
+    background: linear-gradient(90deg, rgba(247,0,0,0.7710434515603116) 26%, rgba(24,43,116,0.8298669809720763) 75%);
+}
+
+/*-----Content displaying part-----*/
+
+.cdply{
+    flex: 1 1 40rem;
+    background: rgb(24,43,116);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 26%, rgba(0, 0, 0, 0.762) 75%);
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px black;
+}
+
+.cdply:hover{
+    background: rgb(247,0,0);
+    background: linear-gradient(90deg, rgba(247, 0, 0, 0.442) 26%, rgba(24, 42, 116, 0.519) 75%);
+}
+
+.cdply table{
+    padding: 50px;
+    height: 30vh;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*-----Footer-----*/
+
+footer {
+    margin-top: 220px;
 }
